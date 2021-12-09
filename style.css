@@ -1,0 +1,114 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    perspective: 600px;
+    -webkit-perspective: 600px;
+    
+}
+.container
+{
+    width: 800px;
+    height: 800px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card
+{
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+   
+
+   
+}
+.sneaker
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.circle
+{
+    width: 200px;
+    height: 200px;
+   
+    background-image: linear-gradient(#EC9924,#222739);
+    border-radius: 50%;
+}
+.sneaker img
+{
+    width: 200px;
+    position: absolute;
+    transition:all 0.75s ease-in-out;
+}
+.content
+{
+    margin-top: 40px;
+    
+    text-align: left;
+    
+}
+.content h1,.content p
+{
+    margin-left: 40px;
+    width: 200px;
+    margin-top: 20px;
+    color: #222739;
+    transition:all 1s ease;
+    
+    
+}
+
+
+.sizes,.order
+{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.order button
+{
+    transition: all 1s ease ;
+}
+.sizes button,.order button
+{
+    width: 60px;
+    border: none;
+    background:transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    padding: 2px 5px;
+    color: #222739;
+    font-weight: bolder;
+}
+.order button
+{
+    width: 80%;
+    height: 2rem;
+    background-color: #EC9924;
+
+}
+
